@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Wave Assistant</string>
+    <string name="i_am_wave_assistant">Welcome, I am Wave Assistant</string>
+    <string name="your_device_does_not_support_flashlight">Your device does not support Flashlight</string>
+    <string name="title_activity_settings">Settings : Wave Assistant</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="hi_i_am_wave_assistant_how_may_i_help_you">Hi!\n\nI am Wave Assistant\n\nHow may I help you?</string>
+    <string name="setup_incomplete_assistant_readable_text">Your Wave Assistant is just a few steps away from being yours. Please complete the Wave Assistant setup before continuing.We assure you that the setup will be as quick and simple as possible</string>
+    <string name="setup_incomplete_text">Your Wave Assistant is just a few steps away from being yours.\nPlease complete the Wave Assistant setup before continuing.\n\nWe assure you that the setup will be as quick and simple as possible.</string>
+    <string name="setup_incomplete">Setup Incomplete</string>
+    <string name="assistant_setup">Assistant Setup</string>
+    <string name="off_text">off</string>
+    <string name="on_text">on</string>
+    <string name="turning_bluetooth_off">Turning Bluetooth off</string>
+    <string name="turning_bluetooth_on">Turning Bluetooth on</string>
+    <string name="opening_assistant">Opening Assistant</string>
+    <string name="opening_app_formatted">Opening %1s</string>
+    <string name="opening_device_settings">Opening Device Settings</string>
+    <string name="i_don_know_your_birthday_date_yet_but_text">I don\'t know your birthday date yet\n\nBut you could tell me today and i\'ll remember it</string>
+    <string name="you_told_your_birthday_is_on_text">You told your birthday is on %1s</string>
+    <string name="activity_table_permission_description">Access user activity information that is maintained by Wave Assistant</string>
+    <string name="activity_table_permission_label">Wave Assistant Activity</string>
+
+</resources>

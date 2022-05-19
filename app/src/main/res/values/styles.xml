@@ -1,0 +1,98 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="WaveAssistantTheme.ActionBar" parent="Theme.Material3.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="colorTheme">@android:color/white</item>
+        <item name="colorThemeDark">#F6F5F5</item>
+        <item name="colorOpposite">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="colorDivider">#E6E5E5</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorLight">#E8EAF6</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="WaveAssistantTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="colorTheme">@android:color/white</item>
+        <item name="colorThemeDark">#F6F5F5</item>
+        <item name="colorOpposite">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="colorDivider">#E6E5E5</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="WaveAssistantDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog">
+
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="colorOpposite">@android:color/black</item>
+        <item name="buttonBarButtonStyle">@style/Widget.WaveAssistant.Button</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="fontFamily">@font/kumbh_sans_medium</item>
+
+    </style>
+
+    <style name="TextAppearance.WaveAssistant.Button" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/kumbh_sans_medium</item>
+        <item name="android:textColor">?attr/colorOpposite</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.WaveAssistant.AssistantText" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/kumbh_sans_medium</item>
+        <item name="android:textColor">?attr/colorOpposite</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_assistant_text</item>
+    </style>
+
+    <style name="TextAppearance.WaveAssistant.Text" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/kumbh_sans_light</item>
+        <item name="android:textColor">?attr/colorOpposite</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_text</item>
+    </style>
+
+    <style name="Widget.WaveAssistant.Button" parent="Widget.MaterialComponents.Button.TextButton.Dialog.Flush">
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.WaveAssistant.Button</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+
+    <attr name="colorTheme" format="color" />
+    <attr name="colorDivider" format="color" />
+    <attr name="colorOpposite" format="color" />
+    <attr name="colorThemeDark" format="color" />
+    <attr name="colorLight" format="color" />
+
+
+</resources>

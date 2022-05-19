@@ -1,0 +1,4 @@
+include ':pinLog'
+include ':spotify-remote'
+include ':app'
+rootProject.name = "Wave Assistant"

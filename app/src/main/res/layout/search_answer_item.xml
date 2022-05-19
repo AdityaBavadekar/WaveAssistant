@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorTheme"
+    android:orientation="vertical"
+    android:paddingHorizontal="5dp"
+    android:paddingVertical="10dp"
+    tools:layout_width="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="@dimen/default_view_padding"
+        app:cardBackgroundColor="?attr/colorThemeDark"
+        app:cardCornerRadius="@dimen/default_corner_radius"
+        app:cardElevation="@dimen/default_card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/default_view_padding"
+                android:layout_marginTop="@dimen/default_view_padding"
+                android:drawableStart="@drawable/ic_arrow_right"
+                android:drawablePadding="@dimen/default_view_padding"
+                android:fontFamily="@font/kumbh_sans_medium"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_text"
+                tools:maxLines="3"
+                tools:text="From Wikipedia" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/kumbh_sans_medium"
+                android:padding="@dimen/default_text_view_padding"
+                android:textSize="@dimen/text_size_assistant_text"
+                tools:maxLines="8"
+                tools:text="@tools:sample/lorem/random" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

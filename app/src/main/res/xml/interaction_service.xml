@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice-interaction-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sessionService="com.adityaamolbavadekar.waveassistant.MainInteractionSessionService"
+    android:recognitionService="com.adityaamolbavadekar.waveassistant.MainRecognitionService"
+    android:settingsActivity="com.adityaamolbavadekar.waveassistant.SettingsActivity"
+    android:supportsAssist="true"
+    android:supportsLaunchVoiceAssistFromKeyguard="true"
+    android:supportsLocalInteraction="true"
+    >
+</voice-interaction-service>

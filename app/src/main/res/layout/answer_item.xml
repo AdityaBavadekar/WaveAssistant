@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="5dp"
+    android:paddingVertical="10dp"
+    android:background="?attr/colorTheme"
+    tools:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/answerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/kumbh_sans_medium"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:textSize="@dimen/text_size_assistant_text"
+        android:visibility="gone"
+        tools:maxLines="3"
+        tools:text="@tools:sample/lorem/random"
+        tools:visibility="visible" />
+
+</LinearLayout>

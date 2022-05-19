@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_item_size">28dp</dimen>
+    <dimen name="text_size_assistant_text">21sp</dimen>
+    <dimen name="text_size_preference_text">17sp</dimen>
+    <dimen name="text_size_text">14sp</dimen>
+    <dimen name="default_corner_radius">25dp</dimen>
+    <dimen name="default_text_view_padding">15dp</dimen>
+    <dimen name="default_view_padding">15dp</dimen>
+    <dimen name="default_card_elevation">1dp</dimen>
+</resources>

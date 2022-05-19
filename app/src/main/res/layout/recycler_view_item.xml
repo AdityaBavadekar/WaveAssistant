@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="?attr/colorTheme"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="10dp"
+        tools:layout_width="match_parent">
+
+        <LinearLayout
+            android:id="@+id/itemFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/default_view_padding"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_logo" />
+
+            <TextView
+                android:id="@+id/statusTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/kumbh_sans_medium"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                tools:text="@string/app_name" />
+
+            <ImageView
+                android:id="@+id/settingsIcon"
+                android:layout_width="@dimen/menu_item_size"
+                android:layout_height="@dimen/menu_item_size"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:alpha="0.5"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_settings"
+                android:tint="?attr/colorOpposite" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/toggleCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="@dimen/default_view_padding"
+            android:visibility="gone"
+            app:cardBackgroundColor="?attr/colorThemeDark"
+            app:cardCornerRadius="@dimen/default_corner_radius"
+            app:cardElevation="@dimen/default_card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/toggleTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/kumbh_sans_medium"
+                    android:padding="25dp"
+                    android:textSize="@dimen/text_size_assistant_text"
+                    tools:maxLines="3"
+                    tools:text="@tools:sample/lorem/random" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/toggleView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/default_text_view_padding" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="?attr/colorThemeDark"
+            app:cardCornerRadius="@dimen/default_corner_radius"
+            app:cardElevation="@dimen/default_card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/default_view_padding"
+                    android:layout_marginTop="@dimen/default_view_padding"
+                    android:drawableStart="@drawable/ic_arrow_right"
+                    android:drawablePadding="@dimen/default_view_padding"
+                    android:fontFamily="@font/kumbh_sans_medium"
+                    android:singleLine="true"
+                    android:textSize="@dimen/text_size_text"
+                    tools:maxLines="3"
+                    tools:text="From Wikipedia" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/kumbh_sans_medium"
+                    android:padding="@dimen/default_text_view_padding"
+                    android:textSize="@dimen/text_size_assistant_text"
+                    tools:maxLines="8"
+                    tools:text="@tools:sample/lorem/random" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birthdayCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="?attr/colorThemeDark"
+            app:cardCornerRadius="@dimen/default_corner_radius"
+            app:cardElevation="@dimen/default_card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/default_view_padding">
+
+                <ImageView
+                    android:id="@+id/birthdayGreetingImageView"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/default_view_padding"
+                    android:src="@drawable/ic_baseline_cake_24" />
+
+                <TextView
+                    android:id="@+id/birthdayGreetingTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="@dimen/default_view_padding"
+                    android:fontFamily="@font/kumbh_sans_medium"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/default_text_view_padding"
+                    android:textSize="@dimen/text_size_assistant_text"
+                    tools:maxLines="3"
+                    tools:text="Hooray!!\nHappy Birthday Person" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/timeCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:visibility="gone"
+            android:layout_marginVertical="5dp"
+            app:cardBackgroundColor="?attr/colorThemeDark"
+            app:cardCornerRadius="@dimen/default_corner_radius"
+            app:cardElevation="@dimen/default_card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/default_view_padding">
+
+                <ImageView
+                    android:layout_width="@dimen/menu_item_size"
+                    android:layout_height="@dimen/menu_item_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_access_time_24" />
+
+                <TextView
+                    android:id="@+id/timeTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/kumbh_sans_medium"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/default_text_view_padding"
+                    android:textSize="@dimen/text_size_assistant_text"
+                    tools:maxLines="3"
+                    tools:text="Hooray!!\nHappy Birthday Person" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="35dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="?attr/colorThemeDark"
+            app:cardCornerRadius="@dimen/default_corner_radius"
+            app:cardElevation="@dimen/default_card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/default_view_padding">
+
+                <ImageView
+                    android:id="@+id/appImageView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    tools:src="@drawable/ic_baseline_cake_24" />
+
+                <TextView
+                    android:id="@+id/appAnswerTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/kumbh_sans_medium"
+                    android:paddingHorizontal="@dimen/default_text_view_padding"
+                    android:textSize="@dimen/text_size_assistant_text"
+                    tools:maxLines="3"
+                    tools:text="Opening Application" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/answerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="@font/kumbh_sans_medium"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:textSize="@dimen/text_size_assistant_text"
+            android:visibility="gone"
+            tools:maxLines="3"
+            tools:text="@tools:sample/lorem/random"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/bugView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/unknownAnswerTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/kumbh_sans_medium"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                android:textSize="@dimen/text_size_assistant_text"
+                tools:maxLines="3"
+                tools:text="@tools:sample/lorem/random" />
+
+            <ImageView
+                android:id="@+id/unknownAnswerImageView"
+                android:layout_width="@dimen/menu_item_size"
+                android:layout_height="@dimen/menu_item_size"
+                android:layout_gravity="center"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/ic_report" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:fontFamily="@font/kumbh_sans_light"
+            android:gravity="end"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:textSize="@dimen/text_size_text"
+            android:visibility="gone"
+            tools:maxLines="2"
+            tools:text="@tools:sample/lorem/random"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

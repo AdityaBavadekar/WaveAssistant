@@ -1,0 +1,69 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="com.adityaamolbavadekar.waveassistant.SettingsActivity$MessagesFragment"
+        app:icon="@drawable/messages"
+        app:key="messages_header"
+        app:title="@string/messages_header" />
+
+    <Preference
+        app:fragment="com.adityaamolbavadekar.waveassistant.SettingsActivity$SyncFragment"
+        app:icon="@drawable/sync"
+        app:key="sync_header"
+        app:title="@string/sync_header" />
+
+
+    <EditTextPreference
+        app:key="android.waveassistant.user.name"
+        app:title="Your Name"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        app:key="android.waveassistant.user.nick_name"
+        app:title="Your Nick Name"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        app:key="android.waveassistant.user.phone"
+        app:title="Your Phone Number"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        app:key="android.waveassistant.user.age"
+        app:title="Your Age"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        app:key="android.waveassistant.user.birthday"
+        app:title="Your Birthday"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        app:key="android.waveassistant.voice.speech_rate"
+        app:title="Voice Speech Rate"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        app:enabled="false"
+        app:key="android.waveassistant.user.google_email"
+        app:title="Your Email Address"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:key="android.waveassistant.voice.provide_feedback"
+        app:summary="Weather assistant should speak respond by provide vocal feedback"
+        app:title="Provide Voice Feedback" />
+
+    <Preference
+        app:key="android.waveassistant.linking.spotify"
+        app:summary="You can link your spotify account so that assistant can play music from spotify"
+        app:title="Link Spotify Account" />
+
+    <Preference
+        app:key="android.waveassistant.about.app"
+        app:summary="Your personal voice assistant made by Aditya Bavadekar"
+        app:title="About Wave Assistant" />
+
+
+</PreferenceScreen>

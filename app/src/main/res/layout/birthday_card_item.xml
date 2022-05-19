@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="5dp"
+    android:paddingVertical="10dp"
+    android:background="?attr/colorTheme"
+    tools:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/birthdayCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        app:cardBackgroundColor="?attr/colorThemeDark"
+        app:cardCornerRadius="@dimen/default_corner_radius"
+        app:cardElevation="@dimen/default_card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/default_view_padding">
+
+            <ImageView
+                android:id="@+id/birthdayGreetingImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/default_view_padding"
+                android:src="@drawable/ic_baseline_cake_24" />
+
+            <TextView
+                android:id="@+id/birthdayGreetingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/default_view_padding"
+                android:fontFamily="@font/kumbh_sans_medium"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/default_text_view_padding"
+                android:textSize="@dimen/text_size_assistant_text"
+                tools:maxLines="3"
+                tools:text="Hooray!!\nHappy Birthday Person" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

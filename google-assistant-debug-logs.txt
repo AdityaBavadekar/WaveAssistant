@@ -1,0 +1,441 @@
+05-17 20:04:11.590 18494-18494/? I/A: #clearSessionToHistoryState(): numElements=2 ElementCount=2, isExpectingWebView=false
+05-17 20:04:11.593 18494-18494/? I/OpaAsLangResDelegate: Setting the display assistant language en_GB to use.
+05-17 20:04:11.594 18494-18494/? I/OpaAsLangResDelegate: Setting the display assistant language en_GB to use.
+05-17 20:04:11.595 18494-18629/? W/A: Sentinel OPA query without AssistantResponse, ignored
+05-17 20:04:11.597 18494-18494/? I/AudioRouter: getOutputStream: STREAM_MUSIC (SCO state was SCO_STATE_DISCONNECTED)
+05-17 20:04:11.597 18494-7986/? I/A: Using proto config with mendel
+05-17 20:04:11.601 18494-8223/? I/A: Pumpkin returned a match.
+05-17 20:04:11.601 18494-8223/? I/A: Offline Action Enabled: true
+05-17 20:04:11.603 18494-18629/? I/A: startTtsPlayback
+05-17 20:04:11.603 18494-8225/? I/AudioRouter: getOutputStream: STREAM_MUSIC (SCO state was SCO_STATE_DISCONNECTED)
+05-17 20:04:11.603 18494-18553/? I/AudioRouter: Requesting audio focus: 4, stream: 3
+05-17 20:04:11.605 18494-8223/? I/native: offline_action_params.cc:47 Creating ActionFlowState and DialogContext for follow on action.
+05-17 20:04:11.605 18494-8223/? I/native: offline_action_params.cc:78 Got derived dialog info from UTS. Dialog Context: 
+05-17 20:04:11.605 18494-18629/? I/MicroDetectionState: Should stop hotword detection immediately - true
+05-17 20:04:11.605 18494-8223/? I/native: offline_action_builder_jni.cc:180 Building native action with pumpkin hypothesis: action_export_name: "Help"
+    action_name: "Help"
+    action_argument {
+      name: "DISCOVERABILITY_3"
+      type: GRM
+      score: 1
+      value: "hi"
+      unnormalized_value: "hi"
+    }
+    action_argument {
+      name: "SEM_TAG"
+      type: SEM_TAG
+      score: 1
+      value: "1"
+      unnormalized_value: "1"
+    }
+    score: 1
+    tagged_hypothesis: "<GRM:DISCOVERABILITY_3>hi </GRM:DISCOVERABILITY_3> <SEM_TAG>1</SEM_TAG> "
+05-17 20:04:11.606 18494-7986/? I/A: Using proto config with mendel
+05-17 20:04:11.606 18494-7986/? I/A: Merging legacy hotword config map with new proto.
+05-17 20:04:11.606 18494-8223/? I/native: offline_action_builder_jni.cc:182 Building native action with offline_action_converter_params: raw_search_query: "hi"
+    language: ENGLISH
+    display_email: "adityabavadekar636@gmail.com"
+    time_zone: "Asia/Calcutta"
+    tts_modality: DEFAULT
+    locale_code: "en_GB"
+    client_context {
+    }
+    action_flow_state {
+    }
+    dialog_context {
+    }
+    android_version: 23
+    is_speech_request: false
+    offline_suppressed_action_types: SHOW_LIST
+    offline_suppressed_action_types: DISABLE_ALARM
+    offline_suppressed_action_types: CREATE_LIST
+    offline_suppressed_action_types: STOP_STOPWATCH
+    offline_suppressed_action_types: SHOW_TIMER
+    offline_suppressed_action_types: SHOW_ALARM
+    offline_suppressed_action_types: START_STOPWATCH
+    offline_suppressed_action_types: ADD_REMINDER
+    offline_suppressed_action_types: STOP_TIMER
+    offline_enabled_actions: "CallContact"
+    offline_enabled_actions: "CallNumber"
+    offline_enabled_actions: "OpenApp"
+    offline_enabled_actions: "Selection"
+    offline_enabled_actions: "SendTextToContact"
+    offline_enabled_actions: "Undo"
+    offline_enabled_actions: "Redo"
+    offline_enabled_actions: "Cancel"
+    offline_enabled_actions: "SelectRecipient"
+    offline_enabled_actions: "ConfirmRelationship"
+    offline_enabled_actions: "SetMessage"
+    offline_enabled_actions: "Affirmative"
+    offline_enabled_actions: "Negative"
+    offline_enabled_actions: "Device"
+    offline_enabled_actions: "Call"
+    offline_enabled_actions: "CallFollowOn"
+    offline_enabled_actions: "SendMessage"
+    offline_enabled_actions: "SendMessageFollowOn"
+    offline_enabled_actions: "Media"
+    offline_enabled_actions: "Planning"
+    offline_enabled_actions: "PlanningFollowOn"
+    offline_enabled_actions: "BootstrapNearbyDevice"
+    offline_enabled_actions: "Help"
+    offline_enabled_actions: "Travel"
+    offline_enabled_actions: "QueryClassification"
+    offline_enabled_actions: "PhotoCapture"
+    offline_enabled_actions: "VideoCapture"
+    offline_suppressed_voice_tips: 51
+    android_version_string: "6.0"
+    agsa_version: "13.18.5.23.arm"
+    device_type: OPA_AGSA
+    apps_corpus_migrated_to_gmscore: true
+05-17 20:04:11.606 18494-7986/? I/A: Adding from config to map. Locale: cmn-Hant-TW modelPrefix: x_google Location:4e7cae00daee30ec565c34e3aa67a51f isSpeakerIdSupported: true
+05-17 20:04:11.606 18494-8223/? I/native: semantics_builder.cc:781 Building final datatree from:
+    child {
+      value: "#"
+    }
+    child {
+      value: "DISCOVERABILITY%0"
+    }
+05-17 20:04:11.606 18494-8223/? I/native: semantics_builder.cc:790 Converting datatree to message:
+    child {
+      value: "help_type"
+    }
+    child {
+      value: "GREETING"
+    }
+05-17 20:04:11.606 18494-7986/? I/A: Adding from config to map. Locale: id-ID modelPrefix: x_google Location:cfffcc1a4c1c084c003c8eb27f73d770 isSpeakerIdSupported: true
+05-17 20:04:11.606 18494-7986/? I/A: Adding from config to map. Locale: ko-KR modelPrefix: x_google Location:0b132163a2eb2c1194b202067475724b isSpeakerIdSupported: true
+05-17 20:04:11.606 18494-7986/? I/A: Skipping. Expected model: 2 Found: 1
+05-17 20:04:11.607 18494-8223/? I/native: offline_action_params.cc:259 Added third party chat app name: chatdemoapp
+05-17 20:04:11.607 18494-8223/? I/native: offline_action_params.cc:259 Added third party chat app name: linkedin
+05-17 20:04:11.607 18494-8223/? I/native: offline_action_params.cc:259 Added third party chat app name: telegram
+05-17 20:04:11.607 18494-8223/? I/native: offline_action_params.cc:259 Added third party chat app name: nextplus
+05-17 20:04:11.607 1783-2564/? I/MediaFocusControl:  AudioFocus  requestAudioFocus() from android.media.AudioManager@daedcf2com.google.android.apps.gsa.speech.audio.d.h@4492bd2 req=4flags=0x0
+05-17 20:04:11.608 18494-18553/? I/AudioRouter: Audio focus obtained
+05-17 20:04:11.609 18494-8223/? I/native: offline_action_params.cc:259 Added third party chat app name: viber
+05-17 20:04:11.609 18494-8223/? I/native: offline_action_params.cc:259 Added third party chat app name: wechat
+05-17 20:04:11.609 18494-8223/? I/native: offline_action_params.cc:259 Added third party chat app name: whatsapp
+05-17 20:04:11.609 18494-8223/? I/native: offline_action_params.cc:259 Added third party chat app name: audioweardemo
+05-17 20:04:11.609 18494-8223/? I/native: offline_action_builder.cc:330 AnalyzerResponse is : parse {
+      identifiers {
+        domain: "discoverability"
+      }
+      interpretation_list {
+        interpretation {
+          [nlp_semantic_parsing.models.discoverability.Discoverability.discoverability] {
+            help_type: GREETING
+          }
+        }
+      }
+    }
+05-17 20:04:11.609 18494-8223/? I/native: offline_action_builder.cc:341 Building action for first query.
+05-17 20:04:11.609 18494-18629/? I/A: Using proto config with mendel
+05-17 20:04:11.609 18494-8223/? I/native: offline_action_builder.cc:385 Finish building action with ActionBuilder with #actions = 1
+05-17 20:04:11.609 18494-8225/? I/A: Locale en-gb is missing ISO3 country.
+05-17 20:04:11.610 18494-18629/? I/A: Using proto config with mendel
+05-17 20:04:11.611 18494-18629/? I/A: Using proto config with mendel
+05-17 20:04:11.612 18494-7986/? I/A: Using proto config with mendel
+05-17 20:04:11.613 18494-7986/? I/A: Using proto config with mendel
+05-17 20:04:11.614 18494-18494/? I/A: #onBindViewHolder: position 1 viewHolder LAST_POSITION_PLACEHOLDER skip for PLACEHOLDER, ElementCount 0
+    com.google.common.f.s: MEDIUM
+        at com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ai.onBindViewHolder(PG:7)
+        at android.support.v7.widget.ff.onBindViewHolder$ar$ds(PG:1)
+        at android.support.v7.widget.ff.bindViewHolder(PG:7)
+        at android.support.v7.widget.gb.q(PG:98)
+        at android.support.v7.widget.gb.p(PG:1)
+        at android.support.v7.widget.dt.a(PG:7)
+        at android.support.v7.widget.LinearLayoutManager.layoutChunk(PG:1)
+        at android.support.v7.widget.LinearLayoutManager.fill(PG:7)
+        at android.support.v7.widget.LinearLayoutManager.onLayoutChildren(PG:55)
+        at android.support.v7.widget.RecyclerView.dispatchLayoutStep2(PG:11)
+        at android.support.v7.widget.RecyclerView.dispatchLayout(PG:9)
+        at android.support.v7.widget.RecyclerView.onLayout(PG:2)
+        at com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView.onLayout(PG:1)
+        at android.view.View.layout(View.java:16646)
+        at android.view.ViewGroup.layout(ViewGroup.java:5440)
+        at android.widget.FrameLayout.layoutChildren(FrameLayout.java:336)
+        at android.widget.FrameLayout.onLayout(FrameLayout.java:273)
+        at android.view.View.layout(View.java:16646)
+        at android.view.ViewGroup.layout(ViewGroup.java:5440)
+        at com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianViewPager.onLayout(PG:35)
+05-17 20:04:11.614 18494-18494/? I/A: #ValyrianItemAnimator.animateChange:oldHolder itemId: -2, itemViewType: -2, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.614 18494-18494/? I/A: #ValyrianItemAnimator.animateChange:newHolder itemId: -2, itemViewType: -2, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.615 18494-7986/? I/A: Using proto config with mendel
+05-17 20:04:11.615 18494-7986/? I/A: Merging legacy hotword config map with new proto.
+05-17 20:04:11.615 18494-7986/? I/A: Adding from config to map. Locale: cmn-Hant-TW modelPrefix: x_google Location:4e7cae00daee30ec565c34e3aa67a51f isSpeakerIdSupported: true
+05-17 20:04:11.615 18494-8223/? I/native: offline_action_builder.cc:393 Localizing first ActionV2.
+05-17 20:04:11.615 18494-18494/? I/A: #ValyrianItemAnimator.animateMove itemId: -2, itemViewType: -2, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.616 18494-8223/? I/native: offline_action_builder.cc:401 Postprocessing after localization done. Debug: 
+    Discoverability grammar triggered. 
+    Maybe applying extensions on ActionV2.
+    Maybe generating punt card from extension.
+    Punt cards not supported; no punt generated.
+05-17 20:04:11.616 18494-18494/? I/A: #ValyrianItemAnimator.startAnimator itemId: -2, itemViewType: -2, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.616 18494-7986/? I/A: Adding from config to map. Locale: id-ID modelPrefix: x_google Location:cfffcc1a4c1c084c003c8eb27f73d770 isSpeakerIdSupported: true
+05-17 20:04:11.616 18494-18494/? I/A: #ValyrianItemAnimator.MoveItemAnimationListener.onAnimationStart itemId: -2, itemViewType: -2, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.616 18494-7986/? I/A: Adding from config to map. Locale: ko-KR modelPrefix: x_google Location:0b132163a2eb2c1194b202067475724b isSpeakerIdSupported: true
+05-17 20:04:11.616 18494-7986/? I/A: Skipping. Expected model: 2 Found: 1
+05-17 20:04:11.616 18494-18494/? I/A: #ValyrianItemAnimator.animateRemove itemId: 42, itemViewType: 1, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.617 18494-8223/? I/native: offline_action_builder_jni.cc:191 Offline action building debug info: 
+    Discoverability grammar triggered. 
+    Maybe applying extensions on ActionV2.
+    Maybe generating punt card from extension.
+    Punt cards not supported; no punt generated.
+05-17 20:04:11.618 18494-18494/? W/A: ValyrianRecyclerView.removeViewAt: childCount: 3, index: 2, viewHolder: GoogleBubble.
+    com.google.common.f.s: MEDIUM
+        at com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView.removeViewAt(PG:1)
+        at android.support.v7.widget.fd.b(PG:4)
+        at android.support.v7.widget.fm.m(PG:11)
+        at com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.au.i(PG:8)
+        at android.support.v7.widget.hy.q(PG:11)
+        at android.support.v7.widget.fc.a(PG:4)
+        at android.support.v7.widget.RecyclerView.dispatchLayout(PG:68)
+        at android.support.v7.widget.RecyclerView.onLayout(PG:2)
+        at com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView.onLayout(PG:1)
+        at android.view.View.layout(View.java:16646)
+        at android.view.ViewGroup.layout(ViewGroup.java:5440)
+        at android.widget.FrameLayout.layoutChildren(FrameLayout.java:336)
+        at android.widget.FrameLayout.onLayout(FrameLayout.java:273)
+        at android.view.View.layout(View.java:16646)
+        at android.view.ViewGroup.layout(ViewGroup.java:5440)
+        at com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianViewPager.onLayout(PG:35)
+        at android.view.View.layout(View.java:16646)
+        at android.view.ViewGroup.layout(ViewGroup.java:5440)
+        at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1743)
+        at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1586)
+05-17 20:04:11.619 18494-18494/? I/A: #ValyrianItemAnimator.animateRemove itemId: 41, itemViewType: 0, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.619 18494-18494/? I/A: #ValyrianItemAnimator.startAnimator itemId: 41, itemViewType: 0, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.620 18494-8225/? I/TextToSpeech: Sucessfully bound to com.google.android.tts
+05-17 20:04:11.620 18494-18494/? I/A: #ValyrianItemAnimator.RemoveItemAnimationListener.onAnimationStart itemId: 41, itemViewType: 0, parentClassName: com.google.android.apps.gsa.staticplugins.opa.valyrian.ui.ValyrianRecyclerView
+05-17 20:04:11.621 18494-8223/? I/native: offline_action_builder_jni.cc:201 ActionV2 native build successful with code: 0. with ActionV2 = 
+    execute: false
+    metadata {
+      action_type: HELP
+      parsed_action_type: HELP
+      parsed_language: "en-GB"
+      caching_key: 1502355474
+      server_info_placeholder {
+        help_action_data {
+        }
+      }
+    }
+    interaction_info {
+      execute: false
+      client_should_decide_interaction: true
+    }
+    initial_query: "hi"
+    [majel.HelpAction.help_action] {
+      title {
+        message_id: 45721
+        text: "Tell Google what to do"
+      }
+      introduction {
+        message_id: 45722
+        text: "Tap the microphone to get directions, set timers, and more"
+      }
+      feature {
+        headline {
+          message_id: 45617
+          text: "Get directions"
+        }
+        example {
+          query: "Navigate home"
+          14 {
+            2: "com.google.android.apps.maps"
+          }
+        }
+        example {
+          query: "Navigate to work"
+          14 {
+            2: "com.google.android.apps.maps"
+          }
+        }
+      }
+      feature {
+        headline {
+          message_id: 45618
+          text: "Send messages"
+        }
+        example {
+          query: "Send a text"
+          4: 0
+          14 {
+            2: "com.google.android.contacts"
+          }
+        }
+        example {
+          substitution: LOCAL_CONTACT_NAME_WITH_PHONE
+          query: "Text %1"
+          4: 0
+        }
+        example {
+          query: "Send an email"
+          14 {
+            2: "com.google.android.gm"
+          }
+        }
+        example {
+          substitution: LOCAL_CONTACT_NAME_WITH_EMAIL
+          query: "Email %1"
+        }
+      }
+      feature {
+        headline {
+          message_id: 45619
+          text: "Set reminders"
+        }
+        example {
+          query: "Set a timer"
+          14 {
+            2: "com.google.android.deskclock"
+          }
+        }
+        example {
+          query: "Note to self"
+          14 {
+            2: "com.google.android.keep"
+          }
+        }
+      }
+      feature {
+        headline {
+          message_id: 45622
+          text: "Play & control music"
+        }
+        example {
+          query: "Play some music"
+          14 {
+            1: 3
+          }
+        }
+        example {
+          query: "Next song"
+          14 {
+            1: 3
+          }
+        }
+        example {
+          query: "Pause music"
+          14 {
+            1: 3
+          }
+        }
+        example {
+          query: "Stop music"
+          14 {
+            1: 3
+          }
+        }
+        example {
+          query: "Resume music"
+          14 {
+            1: 3
+          }
+        }
+      }
+      feature {
+        headline {
+          message_id: 45623
+          text: "Set alarms"
+        }
+        example {
+          time {
+            hour: 8
+            minute: 0
+            second: 0
+          }
+          query: "Set alarm for 8AM"
+        }
+        example {
+          query: "Turn off my alarm"
+          14 {
+            2: "com.google.android.deskclock"
+          }
+        }
+        example {
+          query: "Show my alarms"
+          14 {
+            2: "com.google.android.deskclock"
+          }
+        }
+      }
+      feature {
+        headline {
+          message_id: 45616
+          text: "Make phone calls"
+        }
+        example {
+          query: "Make a call"
+          4: 0
+          14 {
+            2: "com.google.android.dialer"
+          }
+        }
+        example {
+          substitution: LOCAL_CONTACT_NAME_WITH_PHONE
+          query: "Call %1"
+          4: 0
+        }
+        example {
+          query: "Call Mom"
+          4: 0
+          14 {
+            2: "com.google.android.dialer"
+          }
+        }
+        example {
+          query: "Call Dad on speakerphone"
+          4: 0
+          14 {
+            2: "com.google.android.dialer"
+          }
+        }
+      }
+      feature {
+        headline {
+          message_id: 45624
+          text: "Try more voice actions"
+        }
+        example {
+          query: "Open Gmail"
+          14 {
+            2: "com.google.android.gm"
+          }
+        }
+        example {
+          query: "Open Calendar app"
+          14 {
+            2: "com.google.android.calendar"
+          }
+        }
+        example {
+          min_version: 21
+          query: "Turn on Wi-Fi"
+          14 {
+            1: 1
+          }
+        }
+        example {
+          min_version: 21
+          query: "Turn on Bluetooth"
+          14 {
+            2: "com.android.settings"
+          }
+        }
+        example {
+          query: "Turn off airplane mode"
+          14 {
+            2: "com.android.settings"
+          }
+        }
+        example {
+          min_version: 21
+          query: "Turn on the flashlight"
+          14 {
+            1: 2
+          }
+        }
+        example {
+          min_version: 23
+          query: "Turn on battery saver"
+          14 {
+            2: "
